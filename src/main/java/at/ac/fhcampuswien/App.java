@@ -2,10 +2,11 @@ package at.ac.fhcampuswien;
 
 import java.util.Scanner;
 
-public class App {
+public class    App {
 
     //todo Task 1
     public void sayHelloWorld(){
+        System.out.println("Hello World!");
         // input your solution here
     }
 
