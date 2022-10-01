@@ -13,21 +13,32 @@ public class    App {
     //todo Task 2
     public void helloRobot(){
         // input your solution here
-        System.out.println("0123456789012345678901      ");
-        System.out.println("         __                 ");
-        System.out.println(" _(\\    |@@|               ");
-        System.out.println("(__/\\__ \\--/ __           ");
-        System.out.println("   \\___|----|  |   __      ");
-        System.out.println("       \\ }{ /\\ )_ / _\\   ");
-        System.out.println("       /\\__/\\ \\__O (__   ");
-        System.out.println("      (--/\\--)    \\__/    ");
-        System.out.println("      _)(  )(_              ");
-        System.out.println("     `---''---`             ");
+        System.out.println("0123456789012345678901");
+        System.out.println("         __");
+        System.out.println(" _(\\    |@@|");
+        System.out.println("(__/\\__ \\--/ __");
+        System.out.println("   \\___|----|  |   __");
+        System.out.println("       \\ }{ /\\ )_ / _\\");
+        System.out.println("       /\\__/\\ \\__O (__");
+        System.out.println("      (--/\\--)    \\__/");
+        System.out.println("      _)(  )(_");
+        System.out.println("     `---''---`");
     }
 
     //todo Task 3
     public void sumOfLiterals(){
         // input your solution here
+        char a = 'Z';
+        int b = 0xface, c = 012;
+        long d = 80L;
+        float e = 44e-1f, f = 5.5f;
+        double g = 8.88e1;
+        double h = 99.9;
+        int w = (int)e;
+        int x = (int)f;
+        int y = (int)g;
+        int z = (int)h;
+        System.out.println (a+b+c+d+w+x+y+z);
     }
 
     //todo Task 4
