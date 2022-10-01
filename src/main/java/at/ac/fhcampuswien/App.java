@@ -44,21 +44,18 @@ public class    App {
     //todo Task 4
     public void addTwoNumbers(){
         // input your solution here
-        // Variable Werte identifizieren
-        int num1 = 0;
-        int num2 = 0;
-        int summe = num1 + num2;
-
+        // Variable Werte initializieren
+        int num1;
+        int num2;
+        int summe;
         // Werte einlesen
-        Scanner scan = new Scanner(System.in);
-        num1 = scan.nextInt();
-        num2 = scan.nextInt();
+        Scanner scaner = new Scanner(System.in);
+        num1 = scaner.nextInt();
+        num2 = scaner.nextInt();
         // Berechnung Formel
         summe = num1 + num2;
         // Ausgabe Summe
         System.out.println(summe);
-
-
     }
 
     //todo Task 5
