@@ -61,6 +61,21 @@ public class    App {
     //todo Task 5
     public void swapTwoNumbers(){
         // input your solution here
+        // Variable deklarieren
+        int num1;
+        int num2;
+        // Werte einlesen und ausgeben
+        Scanner scaner = new Scanner(System.in);
+        System.out.println("Before Swap:");
+        System.out.print("x: ");
+        num1 = scaner.nextInt();
+        System.out.print("y: ");
+        num2 = scaner.nextInt();
+        System.out.println("After Swap:");
+        System.out.print("x: ");
+        System.out.println(num2);
+        System.out.print("y: ");
+        System.out.println(num1);
     }
 
     //todo Task 6
