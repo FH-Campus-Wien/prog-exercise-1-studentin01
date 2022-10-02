@@ -81,22 +81,75 @@ public class    App {
     //todo Task 6
     public void compareTwoNumbers(){
         // input your solution here
+        int n1;
+        int n2;
+        Scanner scaner = new Scanner(System.in);
+        System.out.print("n1: ");
+        n1 = scaner.nextInt();
+        System.out.print("n2: ");
+        n2 = scaner.nextInt();
+        // 3. Bedingung
+        if (n2 > n1) {
+            System.out.println("n2 > n1");
+        } if (n1 > n2) {
+            System.out.println("n1 > n2");
+        } if (n1 == n2) {
+            System.out.println("n1 == n2");
+        }
     }
 
     //todo Task 7
     public void ratingSalesPerson(){
         // input your solution here
-    }
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter annual Revenue: ");
+        int Umsatz = scan.nextInt();
+        if (Umsatz < 0 || Umsatz >= 100000) {
+            System.out.println("Invalid Revenue");
+        } else if (Umsatz < 20000 && Umsatz >= 0) {
+            System.out.println("Poor Sales Revenue");
+        } else if (Umsatz < 50000 && Umsatz >= 20000) {
+            System.out.println("Average Sales Revenue");
+        } else if (Umsatz < 80000 && Umsatz >= 50000) {
+            System.out.println("Good Sales Revenue");
+        } else if (Umsatz < 100000 && Umsatz >= 80000) {
+            System.out.println("Good Sales Revenue");
+        } else {
+            System.out.println();
+        }
 
     //todo Task 8
     public void getCommissionRate(){
         // input your solution here
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Enter CommissionClass: ");
+
+            int CommissionClass=2;
+            switch(CommissionClass) {
+                case 1: System.out.println("Your Commission Rate was set to 0.01"); break;
+                case 2: System.out.println("Your Commission Rate was set to 0.02"); break;
+                case 3: System.out.println("Your Commission Rate was set to 0.03"); break;
+                case 4: System.out.println("Your Commission Rate was set to 0.04"); break;
+                default: System.out.println("Your Commission Rate was set to 0.00"); break;
+            }
     }
 
     //todo Task 9
     public void leapyear(){
         // input your solution here
-    }
+            Scanner scan = new Scanner(System.in);
+            System.out.print("Year: ");
+            int year = scan.nextInt();
+            if (year % 4 != 0) {
+                System.out.println("Not a Leapyear");
+            } else if (year % 100 != 0) {
+                System.out.println("Leapyear");
+            } else if (year % 400 == 0) {
+                System.out.println("Leapyear");
+            } else {
+                System.out.println("Not a Leapyear");
+            }
+        }
 
     //todo Task 10
     public void transposedNumbers(){
