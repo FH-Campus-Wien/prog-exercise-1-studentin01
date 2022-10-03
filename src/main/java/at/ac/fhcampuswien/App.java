@@ -125,7 +125,7 @@ public class    App {
         public void getCommissionRate () {
             // input your solution here
             Scanner scan = new Scanner(System.in);
-            System.out.println("Enter CommissionClass: ");
+            System.out.print("Enter CommissionClass: ");
 
             int CommissionClass = scan.nextInt();
             switch (CommissionClass) {
@@ -142,7 +142,7 @@ public class    App {
                     System.out.println("Your Commission Rate was set to 0.04");
                     break;
                 default:
-                    System.out.println("Your Commission Rate was set to 0.00");
+                    System.out.println("Your Commission Rate was set to 0.0");
                     break;
             }
         }
