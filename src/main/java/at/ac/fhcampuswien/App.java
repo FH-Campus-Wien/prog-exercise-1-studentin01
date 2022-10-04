@@ -167,6 +167,23 @@ public class    App {
         //todo Task 10
         public void transposedNumbers () {
             // input your solution here
+            Scanner scaner = new Scanner(System.in);
+            int reversed = 000;
+
+            System.out.print("Number: " );
+            int num = scaner.nextInt();
+
+            // Schleife Ausführen bis num 0 wird
+            while(num != 0) {
+
+                // letztes Ziffer von num erhalten
+                int digit = num % 10;
+                reversed = reversed * 10 + digit;
+
+                // das letzte Ziffer von num entfernen
+                num /= 10;
+            }
+            System.out.println(reversed);
         }
 
 
